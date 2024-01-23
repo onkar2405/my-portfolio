@@ -1,11 +1,13 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import { Homepage } from "./components/Homepage";
 
 function App() {
   return (
-    <div className="App px-4 py-2">
-      <Navbar />
-    </div>
+    <>
+      <div className="bg-slate-900 h-screen">
+        <Homepage />
+      </div>
+    </>
   );
 }
 
