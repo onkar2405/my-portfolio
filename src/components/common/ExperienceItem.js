@@ -1,6 +1,19 @@
 import { HiExternalLink } from "react-icons/hi";
 import { SkillItem } from "./SkillItem";
 
+/**
+ * This component holds the skeleton code for items of Experience section.
+ * @param {date} startDate - Start date of the company.
+ * @param {date} endDate - end date of the company.
+ * @param {boolean} isCurrentlyWorking - represents whether currently working at the company.
+ * @param {string} title - profile title of the company.
+ * @param {string} companyLink - Company link.
+ * @param {string} companyName - Name of the company.
+ * @param {array} techStack - Technologies used in current company.
+ * @param {string} children - block level component to be rendered in this component. 
+ * 
+ * @returns Experience item.
+ */
 export function ExperienceItem({
   startDate,
   endDate,

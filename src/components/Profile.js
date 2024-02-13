@@ -1,5 +1,9 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+/**
+ * This component renders the profile summary.
+ * @returns Profile summary.
+ */
 export function Profile() {
   return (
     <>

@@ -1,6 +1,10 @@
 import { Profile } from "./Profile";
 import { RightPanel } from "./RightPanel";
 
+/**
+ * Parent most component in the tree. Renders Profile and Rightpanel section.
+ * @returns Renders Profile and Rightpanel section
+ */
 export function Homepage() {
   return (
     <>
