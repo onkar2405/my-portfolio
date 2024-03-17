@@ -2,7 +2,7 @@ import "./App.css";
 import { Homepage } from "./components/Homepage";
 
 /**
- * This is the entry file for the portfolio site. 
+ * This is the entry file for the portfolio site.
  */
 function App() {
   return (

@@ -1,6 +1,6 @@
 /**
- * This component renders skill badge to be displayed in Experience item. 
- * @param {string} skill - Technical skill 
+ * This component renders skill badge to be displayed in Experience item.
+ * @param {string} skill - Technical skill
  * @returns Skill badge.
  */
 export function SkillItem({ skill }) {

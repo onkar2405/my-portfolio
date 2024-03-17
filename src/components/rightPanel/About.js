@@ -4,7 +4,7 @@ export function About() {
       <section
         id="about_section"
         aria-label="About section"
-        className="text-slate-400 text-base font-semibold leading-normal"
+        className="text-slate-400 text-base font-semibold leading-normal p-4"
       >
         Hello! I'm Onkar Vaidya, a seasoned Software Frontend Developer with a
         proven track record of over 2.5 years at{" "}

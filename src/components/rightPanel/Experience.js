@@ -4,7 +4,7 @@ import { ExperienceItem } from "../common/ExperienceItem";
 export function Experience() {
   return (
     <>
-      <div className="mt-10">
+      <section id="experience" className="mt-10">
         <ExperienceItem
           title={"Software Engineer · "}
           endDate={null}
@@ -14,7 +14,9 @@ export function Experience() {
           companyLink={"https://rajasoftwarelabs.com/"}
           companyName={"Raja Software Labs"}
           techStack={[
-            "EmberJs",
+            "ReactJS",
+            "TailwindCSS",
+            "EmberJS",
             "Javascript",
             "SCSS",
             "HTML & CSS",
@@ -38,7 +40,7 @@ export function Experience() {
             responses for faster UI development.
           </p>
         </ExperienceItem>
-      </div>
+      </section>
 
       <div className="mt-10">
         <ExperienceItem
@@ -70,7 +72,7 @@ export function Experience() {
       <a
         href="/assets/Resume.pdf"
         target="_blank"
-        className="mt-10 flex text-slate-200 text-base gap-1"
+        className="pl-4 mt-10 flex text-slate-200 font-semibold gap-1 hover:text-teal-300 focus-visible:text-teal-300"
         rel="noreferrer"
       >
         <span>View full Resume </span>
