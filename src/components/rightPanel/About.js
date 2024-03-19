@@ -4,8 +4,11 @@ export function About() {
       <section
         id="about_section"
         aria-label="About section"
-        className="text-slate-400 text-base font-semibold leading-normal p-4"
+        className="text-slate-400 text-base font-semibold leading-normal lg:px-4 lg:pb-4"
       >
+        <h2 className="text-sm font-bold uppercase tracking-widest mb-6 text-slate-200 lg:sr-only">
+          About
+        </h2>
         Hello! I'm Onkar Vaidya, a seasoned Software Frontend Developer with a
         proven track record of over 2.5 years at{" "}
         <span className="text-slate-100">Raja Software Labs</span>. Back in June

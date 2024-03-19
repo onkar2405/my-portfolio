@@ -5,6 +5,9 @@ export function Experience() {
   return (
     <>
       <section id="experience" className="mt-10">
+        <h2 className="text-sm font-bold uppercase tracking-widest mb-6 text-slate-200 lg:sr-only">
+          Experience
+        </h2>
         <ExperienceItem
           title={"Software Engineer · "}
           endDate={null}
@@ -23,6 +26,16 @@ export function Experience() {
             "Rest APIs",
             "Git",
             "JIRA",
+          ]}
+          projects={[
+            {
+              projectName: "Linkedin Ads",
+              link: "https://www.linkedin.com/campaignmanager/accounts/",
+            },
+            {
+              projectName: "True pill",
+              link: "https://www.truepill.com/",
+            },
           ]}
         >
           <p className="text-slate-400 text-sm">
@@ -72,7 +85,7 @@ export function Experience() {
       <a
         href="/assets/Resume.pdf"
         target="_blank"
-        className="pl-4 mt-10 flex text-slate-200 font-semibold gap-1 hover:text-teal-300 focus-visible:text-teal-300"
+        className="lg:pl-4 mt-10 flex text-slate-200 font-semibold gap-1 hover:text-teal-300 focus-visible:text-teal-300"
         rel="noreferrer"
       >
         <span>View full Resume </span>

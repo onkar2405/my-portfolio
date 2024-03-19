@@ -8,11 +8,11 @@ import { RightPanel } from "./RightPanel";
 export function Homepage() {
   return (
     <>
-      <div className="flex w-4/5 p-24 m-auto">
-        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+      <div className="lg:flex lg:w-4/5 p-12 m-auto">
+        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:pb-24">
           <Profile />
         </header>
-        <div className="w-1/2">
+        <div className="lg:w-3/4">
           <RightPanel />
         </div>
       </div>

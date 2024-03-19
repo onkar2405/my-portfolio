@@ -8,7 +8,7 @@ export function Profile() {
   return (
     <>
       <div className="text-white">
-        <div>
+        <div className="mb-20">
           <div>
             <h1 className="text-5xl font-extrabold">Onkar Vaidya</h1>
             <h3 className="text-slate-200 font-bold text-xl mt-3">
@@ -37,25 +37,27 @@ export function Profile() {
             </a>
           </div>
         </div>
-        <div className="text-slate-500 flex flex-col mt-20 gap-y-2">
-          <a className="group flex items-center py-3" href="#about_section">
-            <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-            <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-              About
-            </span>
-          </a>
-          <a className="group flex items-center py-3" href="#experience">
-            <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-            <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-              Experience
-            </span>
-          </a>
-          <a className="group flex items-center py-3" href="#projects">
-            <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-            <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-              Projects
-            </span>
-          </a>
+        <div className="hidden lg:block">
+          <div className=" text-slate-500 flex flex-col gap-y-2">
+            <a className="group flex items-center py-3" href="#about_section">
+              <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+              <span className="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                About
+              </span>
+            </a>
+            <a className="group flex items-center py-3" href="#experience">
+              <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+              <span className="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                Experience
+              </span>
+            </a>
+            <a className="group flex items-center py-3" href="#projects">
+              <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+              <span className="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                Projects
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </>
