@@ -1,19 +1,11 @@
-import { useState } from "react";
 import { Profile } from "./Profile";
 import { RightPanel } from "./RightPanel";
-import ContactMeForm from "./ContactMeForm";
 
 /**
  * Parent most component in the tree. Renders Profile and Rightpanel section.
  * @returns Renders Profile and Rightpanel section
  */
 export function Homepage() {
-  const [contactFormState, setContactFormState] = useState(false);
-
-  const handleFormState = () => {
-    setContactFormState((prev) => !prev);
-  };
-
   return (
     <>
       <div className="lg:flex lg:w-4/5 p-12 m-auto">
@@ -25,14 +17,18 @@ export function Homepage() {
         </div>
       </div>
       <footer>
-        <div className="w-4/5 m-auto text-center">
-          <button
-            className="bg-teal-400/10 text-teal-300 text-lg font-bold rounded-full px-5 py-3 cursor-pointer hover:bg-teal-100 hover:text-teal-950"
-            onClick={handleFormState}
-          >
-            Contact Me
-          </button>
-          <ContactMeForm isOpen={contactFormState} onClose={handleFormState} />
+        <div className="lg:w-4/5 text-slate-400 font-semibold px-12 lg:text-md m-auto lg:text-center ">
+          <p>
+            Thank you for visiting! Reach out to me at{" "}
+            <a
+              className="text-teal-300"
+              href="mailto:onkarvaidyad789@gmail.com?subject=Let%27s%20Connect%21%21"
+            >
+              onkarvaidyad789@gmail.com
+            </a>
+            {". "}
+            Let's connect and create together.{" "}
+          </p>
         </div>
       </footer>
     </>
